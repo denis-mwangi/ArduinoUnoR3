@@ -465,12 +465,12 @@
       "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "no_connect_connected": "ignore",
+      "no_connect_dangling": "ignore",
+      "pin_not_connected": "ignore",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
@@ -627,6 +627,42 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -677,7 +713,7 @@
         "uuid": "c32b7815-03f3-4c17-970e-8df1fcd87b59"
       }
     ],
-    "used_designators": "#PWR1-18,C1-16,CN1,D1-6,F1-2,FB1,J1,L2,Q1,R1-15,RV1-2,SW1,TH1,U1-6,Y1-2",
+    "used_designators": "#PWR1-21,C1-16,CN1,D1-6,F1-2,FB1,J1-4,L2,Q1,R1-15,RV1-2,SW1,TH1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [

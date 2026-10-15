@@ -10280,7 +10280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_BK_Array_1206_3216Metric"
 			(at 43.942 152.4 90)
 			(hide yes)
 			(show_name no)
